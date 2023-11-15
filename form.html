@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Web Development" />
+  <meta name="keywords"    content="HTML and CSS" />
+  <meta name="author"      content="Jason Stanley" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/desktop.css" rel="stylesheet" media="screen and (min-width:780px)" />
+  <link href="styles/mobile.css" rel="stylesheet" media="screen and (max-width:480px)" />
+</head>
+<body class="bgcolor">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="mainpage.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a class="active" href="form.html">Form</a></li>
+                <li><a href="timetable.html">Timetable</a></li>
+                <li><a href="animations.html">Animations</a></li>
+            </ul>
+        </nav>
+       
+        <h1 id="name">Jason Stanley</h1>
+        </header>
+        <hr/>
+        <p id="paragraph1">Form</p>
+        <hr/>
+
+        <main>
+            <article id="formparagraph">
+                <h1>Speaking about music,</h1>
+                <p>There are definitely some good musics out there that I haven't heard before, therefore, it will be highly appreciated if you could put in your favorite music as well some other information about it</p>
+                <p>We could also potentially get to know each other and discuss several things about music!</p>
+                <p><em>P.s This is not an obligation, feel free not to put anything.</em></p>
+                <br>
+                <h1><em>Music platform</em></h1>
+                <p>There are plenty of good software that provides variety of musics to its listener. However, what I'm using and currently is my favorite has got to be spotify. Although you obviously need to spend some money to access their premium, I still think that it is worth.</p>
+                <p>I pretty much have a lot of playlist that I listen to whenever I am doing something, shown below:</p>
+                <img src="images/Capture8.PNG" alt="playlist" width="300" height="150">
+                <img src="images/Capture9.PNG" alt="playlist" width="300" height="150">
+            </article>
+
+        </main>
+
+        <section id="rightfloat">
+            <h2>Fill in here!</h2>
+        <form id="survey" method="POST" 
+        action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php"> 
+
+        <p><label>Name (Optional): 
+        </label><input type="text" name="Name" size="30"/>
+        </p>
+
+        <p> Gender: <br/><br/>
+        <input type="radio" name="Gender" value="Male"/>Male
+        <input type="radio" name="Gender" value="Female"/>Female
+       </p>
+
+            <p>Song name: 
+            <input type="text" name="song" size="30"/>
+
+            <p>Artist: 
+           <input type="text" name="artist" size="30"/>
+
+            <p>Genre: <br/><br/>
+                <input type="radio" name="Genre" value="EDM" />Electronic Dance Music (EDM)
+                <br>
+                <input type="radio" name="Genre" value="Rock" />Rock
+                <br>
+                <input type="radio" name="Genre" value="Jazz" />Jazz
+                <br>
+                <input type="radio" name="Genre" value="Dubstep" />Dubstep
+                <br>
+                <input type="radio" name="Genre" value="RnB" />Rhythm and Blues
+                <br>
+                <input type="radio" name="Genre" value="Pop" />Pop Music
+                <br>
+                <input type="radio" name="Genre" value="Electro" />Electro
+                <br>
+                </p>
+    
+
+    <p><input type="submit" value="Test" /> 
+    <input type="reset" value="Reset" /> 
+
+    
+</form>
+<div class="container">
+    <div class="coffee-header">
+      <div class="coffee-header__buttons coffee-header__button-one"></div>
+      <div class="coffee-header__buttons coffee-header__button-two"></div>
+      <div class="coffee-header__display"></div>
+      <div class="coffee-header__details"></div>
+    </div>
+    <div class="coffee-medium">
+      <div class="coffe-medium__exit"></div>
+      <div class="coffee-medium__arm"></div>
+      <div class="coffee-medium__liquid"></div>
+      <div class="coffee-medium__smoke coffee-medium__smoke-one"></div>
+      <div class="coffee-medium__smoke coffee-medium__smoke-two"></div>
+      <div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
+      <div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
+      <div class="coffee-medium__cup"></div>
+    </div>
+    <div class="coffee-footer"></div>
+  </div>
+</section>
+
+
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+
+body {
+    background-color: whitesmoke;
+}
+
+    article {
+        float: left;
+        width: 50%;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; 
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .bgcolor {
+        background-color: peachpuff;
+      }
+      
+      .vertical { 
+        border-left: 3px solid black; 
+        height: 550px; 
+        position:absolute; 
+        left: 50%; 
+        margin-top: 20px;
+      
+      }
+      
+      .ibis { 
+        background-color: green;
+      }
+      
+      .database {
+        background-color: yellow;
+      }
+      
+      .web {
+        background-color: crimson;
+      }
+      
+      .solving {
+        background-color: violet;
+      }
+      
+      .noclass {
+        background-color: white;
+      }
+      
+      
+      #name {
+          color:#102c35;
+          font-family: helvetica;
+          width: 300px;
+          position: sticky;
+          text-align: center; 
+          padding: 14px 16px;
+      
+      }
+      
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color:#71bbd4;
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          float:right;
+        }
+        
+        li {
+          float: left;
+          width: 100px;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-family: 'arial';
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #399cbd;
+        }
+      
+        .time {
+          background-color: #399cbd;
+        }
+      
+      
+      #paragraph1 {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: black;
+          text-align: center;
+          background-color: #399cbd;
+      }
+      
+      #article1 {
+        float: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-align:left;
+      
+      }
+      
+      #namemain {
+        width: 300px; 
+        color:#102c35;
+        font-family: helvetica;
+        position: sticky;
+        text-align: center; 
+      }
+      
+      #name {
+        color:#102c35;
+        font-family: helvetica;
+        width: 300px;
+        position: sticky;
+        text-align: center; 
+        margin-left: 50px;
+      }
+      
+      #indonesia {
+        float: left;
+        margin-left: 20px;
+      
+      }
+      
+      #text1{
+        float: left;
+      }
+      
+      #text2{
+        margin-top: 125px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      #text3 {
+        margin-left: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      #traditional {
+        text-align: center;
+      }
+      
+      #title {
+        text-align: center;
+      }
+      
+      
+      footer {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      
+      
+      .list{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      float: none;
+      font-size: 18px;
+      }
+      
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 5px;
+        text-align: center;
+      }
+      
+        
+      
+      th { 
+        background-color: #399cbd;
+      }
+      
+      
+      
+      
+      
+      .side {
+        float: right;
+        margin-right: 10px;
+      }
+      
+      #formparagraph {
+      float: left;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      width: 54%
+      }
+      
+      #rightfloat {
+      float: right;
+      width: 45%
+      }
+      
+      #pictureone {
+        float: right;
+      
+      }
+      #picturetwo{
+        float: right;
+      
+        margin-right: 100px;
+        margin-left: 20px;
+      }
+       
+      #picturethree{
+        float: left;
+      
+      }
+      
+      #picturefour{
+        float: right;
+      
+      }
+      
+      #hey{
+        float: right;
+      }
+      
+      #animation1 {
+        float: left;
+        width: 40%;
+        width: 100px;
+        height: 100px;    
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 10;
+        }
+        
+        @keyframes example {
+          0%   {background-color:red; left:0px; top:0px;}
+          25%  {background-color:yellow; left:600px; top:0px;}
+          50%  {background-color:blue; left:0px; top:0px;}
+          75% {background-color:violet; left:600px; top:0px;}
+          100% {background-color:green; left:0px; top:0px;}
+            }    
+      
+      #sectiontime {
+        float: left;
+        width : 50%;
+      }
+      
+      
+      #logo {
+        margin-left: 150px;
+      }
+      
+      .ani {
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+      }
